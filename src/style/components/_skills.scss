@@ -1,0 +1,72 @@
+// General
+.skills-wrapper {
+  min-height: calc(100vh - 100px);
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.skills-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.skill-title {
+  margin: 20px 0;
+  top: 0;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.skill-title-small {
+  position: static;
+}
+.skills-category {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-category-small {
+  height: auto;
+}
+.skill-logos {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-logos-padding {
+  padding: 30px 0;
+}
+.skill-frame {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+}
+.skill-logo {
+  height: 70px;
+}
+.skill-logo-express {
+  width: 100px;
+}
+.skill-logo-mongoose {
+  width: 100px;
+}
+.skill-logo-angular {
+  height: 90px;
+}
+
+// Slider design
+.carousel-control {
+  background-image: none !important;
+}
+.carousel-control-small {
+  height: auto;
+  top: 25px;
+}

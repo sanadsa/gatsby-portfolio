@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'exam.JPG',
     title: 'Exam System – Angular',
     info: 'An exam system which allows creating/editing exams for educational institutions',
     info2: '– Front end in Angular, Server side in NodeJs DB SQL server',
@@ -38,7 +38,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'InstaBook.JPG',
     title: 'Social Network Project - InstaBook',
     info:
       'A web application for social network using microservices –users (follow/unfollow/block), posts (text, image, tag, like, comment)',
@@ -48,7 +48,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'Cellular.JPG',
     title: 'Management System For A Cellular Company – .NET',
     info:
       'A windows application for managing customers, lines, packages and invoices for a cellular company',
@@ -62,8 +62,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Contact Me',
+  email: 'sanadsatel@gmail.com',
 };
 
 // FOOTER DATA
