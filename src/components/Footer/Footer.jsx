@@ -40,6 +40,12 @@ const Footer = () => {
             Jacobo Martínez
           </a>
         </p>
+        <p className="footer__text">
+          © {new Date().getFullYear()} - Skills section developed by{' '}
+          <a href="https://github.com/sanadsa" target="_blank" rel="noopener noreferrer">
+            Sanad Satel
+          </a>
+        </p>
 
         {isEnabled && <GithubButtons />}
       </Container>

@@ -1,4 +1,10 @@
 import uuidv1 from 'uuid/v1';
+import html from '../images/html5.svg';
+import css from '../images/css3.svg';
+import js from '../images/js.png';
+import bootstrap from '../images/bootstrap.svg';
+import angular from '../images/angular.svg';
+import react from '../images/react.png';
 
 // HEAD DATA
 export const headData = {
@@ -23,6 +29,14 @@ export const aboutData = {
   paragraphTwo: 'a',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+};
+
+// SKILLS DATA
+export const skillsData = {
+  // max 4 in each
+  frontEnd1: [html, css, js, bootstrap],
+  frontEnd2: [angular, react],
+  backEndImgs: [1, 2, 3, 4, 4],
 };
 
 // PROJECTS DATA
@@ -89,5 +103,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
