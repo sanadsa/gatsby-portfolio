@@ -5,6 +5,17 @@ import js from '../images/js.png';
 import bootstrap from '../images/bootstrap.svg';
 import angular from '../images/angular.svg';
 import react from '../images/react.png';
+import wpf from '../images/wpf.png';
+import mvc from '../images/mvc.png';
+import sql from '../images/sqll.png';
+import csharp from '../images/csharp.png';
+import nodejs from '../images/nodejs.png';
+import java from '../images/Java.png';
+import restApi from '../images/restApi.png';
+import git from '../images/gitIcon.png';
+import jira from '../images/JIRA.png';
+import neo4j from '../images/neo4j.png';
+import tfs from '../images/tfs.png';
 
 // HEAD DATA
 export const headData = {
@@ -23,11 +34,12 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'download.png',
+  img: 'sanads-profile.jpeg',
   paragraphOne:
-    "I'm a young and ambitious software engineer with a Bs.C in computer science from HIT. I've been working for the past year as an implementation engineer in robotic process automation using NICE's Real Time Designer. Fluent in C#, JS, JAVA",
-  paragraphTwo: 'a',
-  paragraphThree: '',
+    'I am a Software Developer with enthusiasm and focus on Web Development and Devops.',
+  paragraphTwo:
+    'I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the Web field.',
+  paragraphThree: 'BSc Computer Science 👨‍💻 HIT 💻 Developer @ Sela Group',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -35,8 +47,10 @@ export const aboutData = {
 export const skillsData = {
   // max 4 in each
   frontEnd1: [html, css, js, bootstrap],
-  frontEnd2: [angular, react],
-  backEndImgs: [1, 2, 3, 4, 4],
+  frontEnd2: [angular, react, wpf, mvc],
+  backend1: [sql, csharp, nodejs, java],
+  backend2: [restApi],
+  other: [git, jira, neo4j, tfs],
 };
 
 // PROJECTS DATA

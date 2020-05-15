@@ -65,6 +65,7 @@ $ git remote remove origin
 Then you can install the dependencies either using NPM or Yarn:
 
 Using NPM:
+
 ```bash
 # Install dependencies
 $ npm install
@@ -72,7 +73,9 @@ $ npm install
 # Start development server
 $ gatsby develop
 ```
+
 Using Yarn:
+
 ```bash
 # Install dependencies
 $ yarn
@@ -248,7 +251,8 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 
 ## Authors
 
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev) - template
+- **Sanad Satel** - [https://github.com/sanadsa](https://github.com/sanadsa) - skills section
 
 ## Status
 
