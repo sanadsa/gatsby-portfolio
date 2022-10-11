@@ -34,7 +34,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'sanads-profile.jpeg',
+  img: 'sanads-profile.jpg',
   paragraphOne:
     'I am a Software Developer with enthusiasm and focus on Web Development and Devops.',
   paragraphTwo:
